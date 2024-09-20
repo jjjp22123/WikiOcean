@@ -1,0 +1,227 @@
+2024-09-19 15:36:54.994 INFO  com.wiki.web.WikiOceanApplication                 :55   [32m                  [0;39m Starting WikiOceanApplication using Java 17 on LAPTOP-MD0L4TA8 with PID 27968 (D:\AAAAA Project\SpringBoot\WikiOcean\target\classes started by 袁锦鹏 in D:\AAAAA Project\SpringBoot\WikiOcean)
+2024-09-19 15:36:54.996 INFO  com.wiki.web.WikiOceanApplication                 :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2024-09-19 15:36:55.085 WARN  o.s.h.converter.json.Jackson2ObjectMapperBuilder  :127  [32m                  [0;39m For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-09-19 15:36:55.586 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-09-19 15:36:55.588 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-19 15:36:55.606 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-09-19 15:36:56.250 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2024-09-19 15:36:56.257 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2024-09-19 15:36:56.257 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-09-19 15:36:56.258 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-09-19 15:36:56.259 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+2024-09-19 15:36:56.259 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-09-19 15:36:56.259 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-09-19 15:36:56.264 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+2024-09-19 15:36:56.331 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-09-19 15:36:56.331 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1289 ms
+2024-09-19 15:36:57.465 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69   [32m                  [0;39m Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-09-19 15:36:57.558 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-19 15:36:57.789 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2024-09-19 15:36:57.825 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2024-09-19 15:36:57.862 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2024-09-19 15:36:57.863 INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160  [32m                  [0;39m Context refreshed
+2024-09-19 15:36:57.876 INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163  [32m                  [0;39m Found 1 custom documentation plugin(s)
+2024-09-19 15:36:57.892 INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41   [32m                  [0;39m Scanning for api listing references
+2024-09-19 15:36:57.977 INFO  s.d.s.w.r.operation.CachingOperationNameGenerator :40   [32m                  [0;39m Generating unique operation named: allUsingGET_1
+2024-09-19 15:36:57.981 INFO  s.d.s.w.r.operation.CachingOperationNameGenerator :40   [32m                  [0;39m Generating unique operation named: deleteUsingDELETE_1
+2024-09-19 15:36:57.986 INFO  s.d.s.w.r.operation.CachingOperationNameGenerator :40   [32m                  [0;39m Generating unique operation named: listUsingGET_1
+2024-09-19 15:36:57.990 INFO  s.d.s.w.r.operation.CachingOperationNameGenerator :40   [32m                  [0;39m Generating unique operation named: saveUsingPOST_1
+2024-09-19 15:36:57.995 INFO  s.d.s.w.r.operation.CachingOperationNameGenerator :40   [32m                  [0;39m Generating unique operation named: deleteUsingDELETE_2
+2024-09-19 15:36:57.998 INFO  s.d.s.w.r.operation.CachingOperationNameGenerator :40   [32m                  [0;39m Generating unique operation named: listUsingGET_2
+2024-09-19 15:36:58.006 INFO  s.d.s.w.r.operation.CachingOperationNameGenerator :40   [32m                  [0;39m Generating unique operation named: saveUsingPOST_2
+2024-09-19 15:36:58.016 INFO  s.d.s.w.r.operation.CachingOperationNameGenerator :40   [32m                  [0;39m Generating unique operation named: deleteUsingDELETE_3
+2024-09-19 15:36:58.025 INFO  s.d.s.w.r.operation.CachingOperationNameGenerator :40   [32m                  [0;39m Generating unique operation named: listUsingGET_3
+2024-09-19 15:36:58.036 INFO  s.d.s.w.r.operation.CachingOperationNameGenerator :40   [32m                  [0;39m Generating unique operation named: saveUsingPOST_3
+2024-09-19 15:36:58.053 INFO  com.wiki.web.WikiOceanApplication                 :61   [32m                  [0;39m Started WikiOceanApplication in 3.407 seconds (JVM running for 3.847)
+2024-09-19 15:36:58.055 INFO  com.wiki.web.WikiOceanApplication                 :28   [32m                  [0;39m 项目启动成功!
+2024-09-19 15:36:58.055 INFO  com.wiki.web.WikiOceanApplication                 :29   [32m                  [0;39m 地址:	http://192.168.12.47:8880
+2024-09-19 15:37:00.060 INFO  com.wiki.web.job.TestJob                          :24   [32m                  [0;39m 每隔5秒钟执行一次： 36:58
+2024-09-19 15:37:01.568 INFO  com.wiki.web.job.TestJob                          :36   [32m                  [0;39m 每隔1秒钟执行一次： 37:00 060
+2024-09-19 15:37:03.570 INFO  com.wiki.web.job.TestJob                          :24   [32m                  [0;39m 每隔5秒钟执行一次： 37:01
+2024-09-19 15:37:05.582 INFO  com.wiki.web.job.TestJob                          :24   [32m                  [0;39m 每隔5秒钟执行一次： 37:03
+2024-09-19 15:37:07.591 INFO  com.wiki.web.job.TestJob                          :24   [32m                  [0;39m 每隔5秒钟执行一次： 37:05
+2024-09-19 15:37:09.101 INFO  com.wiki.web.job.TestJob                          :36   [32m                  [0;39m 每隔1秒钟执行一次： 37:07 591
+2024-09-19 15:37:11.110 INFO  com.wiki.web.job.TestJob                          :24   [32m                  [0;39m 每隔5秒钟执行一次： 37:09
+2024-09-19 15:37:13.114 INFO  com.wiki.web.job.TestJob                          :24   [32m                  [0;39m 每隔5秒钟执行一次： 37:11
+2024-09-19 15:37:15.118 INFO  com.wiki.web.job.TestJob                          :24   [32m                  [0;39m 每隔5秒钟执行一次： 37:13
+2024-09-19 15:37:15.118 INFO  com.wiki.web.job.DocJob                           :32   [32m491875404844503040[0;39m 更新电子书下的文档数据开始
+2024-09-19 15:37:15.136 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m491875404844503040[0;39m HikariPool-1 - Starting...
+2024-09-19 15:37:15.341 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m491875404844503040[0;39m HikariPool-1 - Start completed.
+2024-09-19 15:37:15.366 INFO  com.wiki.web.job.DocJob                           :35   [32m491875404844503040[0;39m 更新电子书下的文档数据结束，耗时：248毫秒
+2024-09-19 15:37:17.375 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:15
+2024-09-19 15:37:19.376 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:17
+2024-09-19 15:37:21.381 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:19
+2024-09-19 15:37:23.389 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:21
+2024-09-19 15:37:25.401 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:23
+2024-09-19 15:37:26.903 INFO  com.wiki.web.job.TestJob                          :36   [32m491875404844503040[0;39m 每隔1秒钟执行一次： 37:25 401
+2024-09-19 15:37:28.914 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:26
+2024-09-19 15:37:30.924 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:28
+2024-09-19 15:37:32.928 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:30
+2024-09-19 15:37:34.941 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:32
+2024-09-19 15:37:36.946 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:34
+2024-09-19 15:37:38.960 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:36
+2024-09-19 15:37:40.966 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:38
+2024-09-19 15:37:42.969 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:40
+2024-09-19 15:37:44.981 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:42
+2024-09-19 15:37:46.991 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:44
+2024-09-19 15:37:49.003 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:46
+2024-09-19 15:37:51.014 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:49
+2024-09-19 15:37:53.021 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:51
+2024-09-19 15:37:55.024 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:53
+2024-09-19 15:37:57.032 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:55
+2024-09-19 15:37:59.037 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:57
+2024-09-19 15:38:01.043 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 37:59
+2024-09-19 15:38:02.554 INFO  com.wiki.web.job.TestJob                          :36   [32m491875404844503040[0;39m 每隔1秒钟执行一次： 38:01 043
+2024-09-19 15:38:04.555 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 38:02
+2024-09-19 15:38:06.565 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 38:04
+2024-09-19 15:38:08.580 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 38:06
+2024-09-19 15:38:10.586 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 38:08
+2024-09-19 15:38:12.587 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 38:10
+2024-09-19 15:38:14.591 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 38:12
+2024-09-19 15:38:16.599 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 38:14
+2024-09-19 15:38:18.614 INFO  com.wiki.web.job.TestJob                          :24   [32m491875404844503040[0;39m 每隔5秒钟执行一次： 38:16
+2024-09-19 15:38:18.614 INFO  com.wiki.web.job.DocJob                           :32   [32m491875671166029824[0;39m 更新电子书下的文档数据开始
+2024-09-19 15:38:18.616 INFO  com.wiki.web.job.DocJob                           :35   [32m491875671166029824[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2024-09-19 15:38:20.631 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:18
+2024-09-19 15:38:22.636 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:20
+2024-09-19 15:38:24.643 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:22
+2024-09-19 15:38:26.647 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:24
+2024-09-19 15:38:28.660 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:26
+2024-09-19 15:38:30.675 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:28
+2024-09-19 15:38:32.687 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:30
+2024-09-19 15:38:34.698 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:32
+2024-09-19 15:38:36.704 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:34
+2024-09-19 15:38:38.710 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:36
+2024-09-19 15:38:40.711 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:38
+2024-09-19 15:38:42.727 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:40
+2024-09-19 15:38:44.739 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:42
+2024-09-19 15:38:46.753 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:44
+2024-09-19 15:38:48.765 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:46
+2024-09-19 15:38:50.769 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:48
+2024-09-19 15:38:52.779 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:50
+2024-09-19 15:38:54.782 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:52
+2024-09-19 15:38:56.790 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:54
+2024-09-19 15:38:58.791 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:56
+2024-09-19 15:39:00.797 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 38:58
+2024-09-19 15:39:02.805 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:00
+2024-09-19 15:39:04.818 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:02
+2024-09-19 15:39:06.272 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-19 15:39:06.272 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-09-19 15:39:06.273 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2024-09-19 15:39:06.624 INFO  com.wiki.web.utils.RedisUtil                      :29   [32m                  [0;39m key不存在，放入：DOC_VOTE_37_null，过期 86400 秒
+2024-09-19 15:39:06.834 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:04
+2024-09-19 15:39:07.368 INFO  com.wiki.web.utils.RedisUtil                      :26   [32m                  [0;39m key已存在：DOC_VOTE_37_null
+2024-09-19 15:39:07.371 ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]   :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.wiki.web.exception.BusinessException: 您已点赞过] with root cause
+com.wiki.web.exception.BusinessException: 您已点赞过
+2024-09-19 15:39:07.374 INFO  com.wiki.web.interceptor.LoginInterceptor         :27   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2024-09-19 15:39:07.375 INFO  com.wiki.web.interceptor.LoginInterceptor         :37   [32m                  [0;39m 接口登录拦截：，path：http://localhost:8880/error
+2024-09-19 15:39:07.375 INFO  com.wiki.web.interceptor.LoginInterceptor         :41   [32m                  [0;39m 登录校验开始，token：491858909078884352
+2024-09-19 15:39:07.377 INFO  com.wiki.web.interceptor.LoginInterceptor         :53   [32m                  [0;39m 已登录：{"id":489700316497973248,"loginName":"hello","name":"hello","token":"491858909078884352"}
+2024-09-19 15:39:07.386 INFO  com.wiki.web.interceptor.LoginInterceptor         :61   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：12 ms -------------
+2024-09-19 15:39:08.836 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:06
+2024-09-19 15:39:10.839 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:08
+2024-09-19 15:39:12.843 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:10
+2024-09-19 15:39:14.189 INFO  com.wiki.web.utils.RedisUtil                      :26   [32m                  [0;39m key已存在：DOC_VOTE_37_null
+2024-09-19 15:39:14.190 ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]   :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.wiki.web.exception.BusinessException: 您已点赞过] with root cause
+com.wiki.web.exception.BusinessException: 您已点赞过
+2024-09-19 15:39:14.191 INFO  com.wiki.web.interceptor.LoginInterceptor         :27   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2024-09-19 15:39:14.191 INFO  com.wiki.web.interceptor.LoginInterceptor         :37   [32m                  [0;39m 接口登录拦截：，path：http://localhost:8880/error
+2024-09-19 15:39:14.191 INFO  com.wiki.web.interceptor.LoginInterceptor         :41   [32m                  [0;39m 登录校验开始，token：491858909078884352
+2024-09-19 15:39:14.192 INFO  com.wiki.web.interceptor.LoginInterceptor         :53   [32m                  [0;39m 已登录：{"id":489700316497973248,"loginName":"hello","name":"hello","token":"491858909078884352"}
+2024-09-19 15:39:14.194 INFO  com.wiki.web.interceptor.LoginInterceptor         :61   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：3 ms -------------
+2024-09-19 15:39:14.854 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:12
+2024-09-19 15:39:16.369 INFO  com.wiki.web.job.TestJob                          :36   [32m491875671166029824[0;39m 每隔1秒钟执行一次： 39:14 854
+2024-09-19 15:39:18.380 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:16
+2024-09-19 15:39:20.382 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:18
+2024-09-19 15:39:22.390 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:20
+2024-09-19 15:39:24.393 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:22
+2024-09-19 15:39:26.402 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:24
+2024-09-19 15:39:28.406 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:26
+2024-09-19 15:39:30.407 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:28
+2024-09-19 15:39:30.487 INFO  com.wiki.web.controller.UserController            :62   [32m                  [0;39m 生成单点登录token：491875972623241216，并放入redis中
+2024-09-19 15:39:32.418 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:30
+2024-09-19 15:39:34.428 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:32
+2024-09-19 15:39:36.442 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:34
+2024-09-19 15:39:38.442 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:36
+2024-09-19 15:39:40.457 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:38
+2024-09-19 15:39:42.461 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:40
+2024-09-19 15:39:44.462 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:42
+2024-09-19 15:39:46.475 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:44
+2024-09-19 15:39:48.480 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:46
+2024-09-19 15:39:50.481 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:48
+2024-09-19 15:39:52.484 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:50
+2024-09-19 15:39:54.486 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:52
+2024-09-19 15:39:56.492 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:54
+2024-09-19 15:39:58.500 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:56
+2024-09-19 15:40:00.508 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 39:58
+2024-09-19 15:40:02.511 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 40:00
+2024-09-19 15:40:04.524 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 40:02
+2024-09-19 15:40:06.526 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 40:04
+2024-09-19 15:40:08.528 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 40:06
+2024-09-19 15:40:10.539 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 40:08
+2024-09-19 15:40:12.548 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 40:10
+2024-09-19 15:40:14.556 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 40:12
+2024-09-19 15:40:16.561 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 40:14
+2024-09-19 15:40:18.563 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 40:16
+2024-09-19 15:40:20.576 INFO  com.wiki.web.job.TestJob                          :24   [32m491875671166029824[0;39m 每隔5秒钟执行一次： 40:18
+2024-09-19 15:40:20.576 INFO  com.wiki.web.job.DocJob                           :32   [32m491876182711734272[0;39m 更新电子书下的文档数据开始
+2024-09-19 15:40:20.581 INFO  com.wiki.web.job.DocJob                           :35   [32m491876182711734272[0;39m 更新电子书下的文档数据结束，耗时：5毫秒
+2024-09-19 15:40:22.586 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:20
+2024-09-19 15:40:24.160 INFO  com.wiki.web.utils.RedisUtil                      :26   [32m                  [0;39m key已存在：DOC_VOTE_37_null
+2024-09-19 15:40:24.161 ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]   :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.wiki.web.exception.BusinessException: 您已点赞过] with root cause
+com.wiki.web.exception.BusinessException: 您已点赞过
+2024-09-19 15:40:24.162 INFO  com.wiki.web.interceptor.LoginInterceptor         :27   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2024-09-19 15:40:24.162 INFO  com.wiki.web.interceptor.LoginInterceptor         :37   [32m                  [0;39m 接口登录拦截：，path：http://localhost:8880/error
+2024-09-19 15:40:24.162 INFO  com.wiki.web.interceptor.LoginInterceptor         :41   [32m                  [0;39m 登录校验开始，token：491875972623241216
+2024-09-19 15:40:24.163 INFO  com.wiki.web.interceptor.LoginInterceptor         :53   [32m                  [0;39m 已登录：{"id":489700316497973248,"loginName":"hello","name":"hello","token":"491875972623241216"}
+2024-09-19 15:40:24.164 INFO  com.wiki.web.interceptor.LoginInterceptor         :61   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：2 ms -------------
+2024-09-19 15:40:24.588 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:22
+2024-09-19 15:40:26.596 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:24
+2024-09-19 15:40:28.606 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:26
+2024-09-19 15:40:30.615 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:28
+2024-09-19 15:40:32.627 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:30
+2024-09-19 15:40:34.635 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:32
+2024-09-19 15:40:36.644 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:34
+2024-09-19 15:40:38.656 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:36
+2024-09-19 15:40:40.668 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:38
+2024-09-19 15:40:42.670 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:40
+2024-09-19 15:40:44.685 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:42
+2024-09-19 15:40:46.687 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:44
+2024-09-19 15:40:48.688 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:46
+2024-09-19 15:40:50.700 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:48
+2024-09-19 15:40:52.713 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:50
+2024-09-19 15:40:54.724 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:52
+2024-09-19 15:40:56.732 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:54
+2024-09-19 15:40:58.737 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:56
+2024-09-19 15:41:00.751 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 40:58
+2024-09-19 15:41:02.762 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 41:00
+2024-09-19 15:41:04.770 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 41:02
+2024-09-19 15:41:06.780 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 41:04
+2024-09-19 15:41:08.787 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 41:06
+2024-09-19 15:41:10.788 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 41:08
+2024-09-19 15:41:12.790 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 41:10
+2024-09-19 15:41:14.793 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 41:12
+2024-09-19 15:41:16.802 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 41:14
+2024-09-19 15:41:18.812 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 41:16
+2024-09-19 15:41:20.822 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 41:18
+2024-09-19 15:41:22.836 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 41:20
+2024-09-19 15:41:24.845 INFO  com.wiki.web.job.TestJob                          :24   [32m491876182711734272[0;39m 每隔5秒钟执行一次： 41:22
+2024-09-19 15:41:26.617 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2024-09-19 15:41:26.617 ERROR o.s.s.support.TaskUtils$LoggingErrorHandler       :95   [32m491876182711734272[0;39m Unexpected error occurred in scheduled task
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at com.wiki.web.job.TestJob.simple(TestJob.java:23)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-09-19 15:41:26.618 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-19 15:41:26.619 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-09-19 15:41:26.628 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
